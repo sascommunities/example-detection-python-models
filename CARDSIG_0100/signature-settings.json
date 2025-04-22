@@ -1,0 +1,29 @@
+{
+  "name": "CARDSIG_0100",
+  "inputs": [
+    {
+      "name": "tca_mod_amt",
+      "datatype": "FP32",
+      "parameters": {
+        "content_type": "np"
+      },
+      "shape": [1]
+    },
+    {
+      "name": "rqo_tran_dttm",
+      "datatype": "BYTES",
+      "parameters": {
+        "content_type": "datetime"
+      },
+      "shape": [1]
+    },
+    {
+      "name": "hqo_card_num",
+      "datatype": "BYTES",
+      "parameters": {
+        "content_type": "str"
+      },
+      "shape": [1]
+    }
+  ]
+}

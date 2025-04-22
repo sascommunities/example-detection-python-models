@@ -1,0 +1,23 @@
+{
+  "description": "Test Python Signature",
+  "modeler": "SAS Supplied",
+  "scoreCodeType": "SDA-PYTHON-Signature",
+  "inputVariables": [
+    {
+      "name": "tca_mod_amt",
+      "type": "number",
+      "jsonPath": "message.cardfinancial.amount"
+    },
+    {
+      "name": "hqo_card_num",
+      "type": "string",
+      "jsonPath": "message.creditcard.number",
+      "length": 16
+    },
+    {
+      "name": "rqo_tran_dttm",
+      "type": "timestamp",
+      "jsonPath": "message.request.messageDtTm"
+    }
+  ]
+}
