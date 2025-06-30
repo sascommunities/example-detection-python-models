@@ -1,0 +1,42 @@
+
+{
+    "name": "PYTEST_0100",
+    "implementation": "PYTEST_0100.PYTEST_0100",
+    "parameters": {
+      "environment_tarball": "./environment.tar.gz"
+    },
+    "inputs": [
+      {
+        "name": "tca_mod_amt",
+        "datatype": "FP32",
+        "parameters": {
+          "content_type": "str"
+        },
+        "shape": [1]
+      },
+      {
+        "name": "hct_mer_mcc",
+        "datatype": "BYTES",
+        "parameters": {
+          "content_type": "str"
+        },
+        "shape": [1]
+      }, 
+      {
+        "name": "hct_term_cntry_code",
+        "datatype": "BYTES",
+        "parameters": {
+          "content_type": "str"
+        },
+        "shape": [1]
+      }, 
+      {
+        "name": "ucm_pos",
+        "datatype": "BYTES",
+        "parameters": {
+          "content_type": "str"
+        },
+        "shape": [1]
+      }
+    ]
+}

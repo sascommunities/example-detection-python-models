@@ -1,0 +1,36 @@
+{
+  "description": "Test Python Model",
+  "modeler": "SAS Supplied",
+  "scoreCodeType": "SDA-PYTHON-Model",
+  "inputVariables": [
+    {
+      "name": "tca_mod_amt",
+      "type": "number",
+      "jsonPath": "message.cardfinancial.amount"
+    },
+    {
+      "name": "hct_mer_mcc",
+      "type": "string",
+      "jsonPath": "message.merchant.categoryCode",
+      "length": 4
+    },
+    {
+      "name": "hct_term_cntry_code",
+      "type": "string",
+      "jsonPath": "message.merchant.country",
+      "length": 4
+    },
+    {
+      "name": "ucm_pos",
+      "type": "string",
+      "jsonPath": "message.cardfinancial.posEntryType",
+      "length": 4
+    }
+  ],
+  "signatures": [
+    {
+      "name": "CARDSIG_0100",
+      "semVersion": "1.0.0"
+    }
+  ]
+}

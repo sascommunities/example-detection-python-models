@@ -1,7 +1,9 @@
 {
   "name": "PYTEST_0200",
   "implementation": "PYTEST_0200.PYTEST_0200",
-  "parameters": {},
+  "parameters": {
+    "environment_tarball": "./environment.tar.gz"
+  },
   "inputs": [
     {
       "name": "tca_mod_amt",
