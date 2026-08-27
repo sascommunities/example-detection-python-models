@@ -1,4 +1,5 @@
 {
+  "name": "CARDSIG_0100 1.0.0",
   "description": "Test Python Signature",
   "modeler": "SAS Supplied",
   "scoreCodeType": "SDA-PYTHON-Signature",
