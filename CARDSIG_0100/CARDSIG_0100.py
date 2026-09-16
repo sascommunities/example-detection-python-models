@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: Apache-2.0
 
 import pickle
-import logging
 
 from datetime import datetime
 

@@ -6,7 +6,6 @@ import math
 import numpy as np
 import os
 import pickle
-import logging
 
 from mlserver import MLModel
 from typing import List
