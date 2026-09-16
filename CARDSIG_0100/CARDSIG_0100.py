@@ -25,7 +25,7 @@ class CARDSIG_0100:
         dt = datetime.fromisoformat(rqo_tran_dttm)
         if self.curr_sig_length == 10:
             self.amounts.pop(0)
-            self.amounts.append(tca_mod_amt[0])
+            self.amounts.append(tca_mod_amt)
             self.datetimes.pop(0)
             self.datetimes.append(dt)
         else:
