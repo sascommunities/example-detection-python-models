@@ -27,10 +27,5 @@
       "length": 4
     }
   ],
-  "signatures": [
-    {
-      "name": "CARDSIG_0100",
-      "semVersion": "1.0.0"
-    }
-  ]
+  "signatures": []
 }
