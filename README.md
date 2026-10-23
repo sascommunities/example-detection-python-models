@@ -15,7 +15,7 @@ bash Miniforge3-Linux-x86_64.sh -b && export PATH=$PATH:/root/miniforge3/bin
 cd /PYTEST_0200 && \
   conda env create -f environment.yml && \
   conda install -y conda-pack && \
-  conda pack --ignore-missing-files -f -n pytest -o environment.tar.gz
+  conda-pack --ignore-missing-files -f -n pytest -o environment.tar.gz
 ```
 
 ## License
